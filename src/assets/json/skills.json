@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Java",
+    "icon": "fab fa-4x fa-java"
+  },
+  {
+    "title": "Git",
+    "icon": "fab fa-4x fa-git"
+  },
+  {
+    "title": "Git Hub",
+    "icon": "fab fa-4x fa-github"
+  },
+  {
+    "title": "CSS3 e SCSS",
+    "icon": "fab fa-4x fa-css3-alt"
+  },
+  {
+    "title": "Angular 12",
+    "icon": "fab fa-4x fa-angular"
+  },
+  {
+    "title": "JavaScript",
+    "icon": "fab fa-4x fa-js-square"
+  },
+  {
+    "title": "MySql",
+    "icon": "fas fa-4x fa-database"
+  },
+  {
+    "title": "MongoDb",
+    "icon": "fas fa-4x fa-database"
+  },
+  {
+    "title": "RestFull Api",
+    "icon": "fas fa-4x fa-ellipsis-h"
+  },
+  {
+    "title": "Python",
+    "icon": "fab fa-4x fa-python"
+  },
+  {
+    "title": "HTML5",
+    "icon": "fas fa-4x fa-code"
+  }
+
+]

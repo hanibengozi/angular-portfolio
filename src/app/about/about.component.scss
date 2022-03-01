@@ -1,0 +1,72 @@
+@import "mixins";
+@import "variables";
+
+.about {
+  position: relative;
+  height: 100vh;
+  @include flex-container(row);
+  background-color: $blue;
+
+  &__details {
+    left: 10%;
+    position: absolute;
+    flex-basis: 50%;
+    color: $white;
+  }
+
+  &__title {
+    color: $white;
+    font-size: $font-size-h1;
+  }
+
+  &__paragraph {
+    color: $white;
+    font-size: $paragraph;
+    margin-bottom: 15px;
+  }
+
+  &__cv_button {
+    background-color: $black;
+    border-radius: 6px;
+    border: 2px solid $bordo;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  &__cv_button:hover {
+    background-color: $bordo;
+    color: white;
+  }
+
+  &__img {
+    position: absolute;
+    height: 90vh;
+    transition: 1s ease-in;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@include mq(sm, max) {
+  .about {
+    &__img {
+      position: absolute;
+      max-width: 160px;
+      transition: 1s ease;
+      bottom: 0;
+    }
+
+    &__details {
+      position: absolute;
+      flex-basis: 90%;
+      @include flex-container(column);
+    }
+  }
+}

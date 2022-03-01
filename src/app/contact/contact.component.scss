@@ -1,0 +1,35 @@
+@import "mixins";
+@import "variables";
+
+.contact {
+  @include flex-container(column);
+  padding: 50px;
+  background-color: $black;
+  color: $white;
+
+  &__title {
+    margin-bottom: 40px;
+    color: $bordo;
+  }
+
+  &__paragraph {
+  }
+}
+
+.list {
+  display: flex;
+
+  &__item {
+    padding: 20px;
+  }
+}
+
+@include mq-between(xs,md) {
+  .btn-secondary {
+    width: 200px;
+    height: 70px;
+    padding: 6px;
+    font-size: 28px;
+    transition: 1s ease;
+  }
+}
