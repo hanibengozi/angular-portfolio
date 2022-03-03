@@ -51,21 +51,24 @@
     transition: 1s ease-in;
     bottom: 0;
     right: 0;
+    max-width: 100%;
   }
 }
 
 @include mq(sm, max) {
   .about {
+    height: 115vh;
     &__img {
       position: absolute;
-      max-width: 160px;
-      transition: 1s ease;
+      height: fit-content;
+      flex-basis: 90%;
       bottom: 0;
     }
 
     &__details {
       position: absolute;
       flex-basis: 90%;
+      top: 10px;
       @include flex-container(column);
     }
   }

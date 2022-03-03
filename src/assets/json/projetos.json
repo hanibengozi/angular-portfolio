@@ -19,26 +19,26 @@
     "img": "./assets/img/pathfinding.gif",
     "github": "https://github.com/hanibengozi/MAPF-for-drones-swarms"
   },
-    {
-        "title": "Ang Rss Reader",
-        "paragraph": "Simples Rss Reader criado com Angular 8",
-        "tools": [
-            {
-                "title": "Angular 8"
-            },
-            {
-                "title": "Bulma"
-            },
-            {
-                "title": "Font Awesome 5"
-            },
-            {
-                "title": "SCSS"
-            }
-        ],
-        "img": "./assets/img/ang-rss-reader.png",
-        "github": "https://github.com/BraianS/ang-rss-reader"
-    },
+  {
+    "title": "Portfolio Website",
+    "paragraph": "This Site",
+    "tools": [
+      {
+        "title": "Angular 8"
+      },
+      {
+        "title": "SCSS"
+      },
+      {
+        "title": "JavaScript"
+      },
+      {
+        "title": "HTML5"
+      }
+    ],
+    "img": "./assets/img/portfolio-project.png",
+    "github": "https://github.com/hanibengozi/angular-portfolio"
+  },
   {
     "title": "CRM ",
     "paragraph": "Full Stack App An insurance company's Customer Relationship Management website.",
