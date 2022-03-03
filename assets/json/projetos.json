@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Multi Agent Path Finding for Drones Swarms",
+    "paragraph": "",
+    "tools": [
+      {
+        "title": "Python"
+      },
+      {
+        "title": "3D Simulation Softwares"
+      },
+      {
+        "title": "Git"
+      },
+      {
+        "title": "Trello"
+      }
+    ],
+    "img": "./assets/img/pathfinding.gif",
+    "github": "https://github.com/hanibengozi/MAPF-for-drones-swarms"
+  },
+    {
+        "title": "Ang Rss Reader",
+        "paragraph": "Simples Rss Reader criado com Angular 8",
+        "tools": [
+            {
+                "title": "Angular 8"
+            },
+            {
+                "title": "Bulma"
+            },
+            {
+                "title": "Font Awesome 5"
+            },
+            {
+                "title": "SCSS"
+            }
+        ],
+        "img": "./assets/img/ang-rss-reader.png",
+        "github": "https://github.com/BraianS/ang-rss-reader"
+    },
+  {
+    "title": "CRM ",
+    "paragraph": "Full Stack App An insurance company's Customer Relationship Management website.",
+    "tools": [
+      {
+        "title": "React"
+      },
+      {
+        "title": "JavaScript"
+      },
+      {
+        "title": "MongoDB"
+      },
+      {
+        "title": "SCSS"
+      },
+      {
+        "title": "Exspress"
+      },
+      {
+        "title": "Mongoose"
+      },
+      {
+        "title": "Git"
+      }
+    ],
+    "img": "./assets/img/crm.gif",
+    "github": "https://github.com/hanibengozi/CRM-Clients-Management"
+  }
+]
