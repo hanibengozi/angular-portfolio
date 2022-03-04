@@ -55,10 +55,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Author
 
-* **Braian Silva** - [Twitter](https://twitter.com/braiancode) - [Gmail](mailto:braiannogueirasilva@gmail.com)
+* **Hana Ben Gozi** - [LinkedIn](https://twitter.com/braiancode) - [Gmail](mailto:hanibengozi@gmail.com)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.MD](LICENSE.MD) file for details
 
-Copyright (c) 2019 **Braian Silva**
+Copyright (c) 2019 **Hani Ben Gozi**
