@@ -15,7 +15,7 @@ This is my portfolio developed with Angular
 
 Run `ng serve --open` to open the project automatically in the url `http://localhost:4200`
 
-![portfolio](./src/assets/img/portfolio.png)
+![portfolio](./src/assets/img/portfolio-img.png)
 
 ## Code scaffolding
 
@@ -55,10 +55,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Author
 
-* **Hana Ben Gozi** - [LinkedIn](https://twitter.com/braiancode) - [Gmail](mailto:hanibengozi@gmail.com)
+* **Hana Ben Gozi** - [LinkedIn](https://www.linkedin.com/in/hani-ben-gozi/) - [Gmail](mailto:hanibengozi@gmail.com)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.MD](LICENSE.MD) file for details
 
-Copyright (c) 2019 **Hani Ben Gozi**
+Copyright (c) 2020 **Hani Ben Gozi**
