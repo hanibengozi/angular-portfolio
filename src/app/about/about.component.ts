@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   constructor() { }
-  title: string = "Hello, i am Hana ";
+  title: string = "Hello, I am Hana ";
   paragraph: string = "I am a Front End / Fullstack Developer";
 
   ngOnInit() {}
