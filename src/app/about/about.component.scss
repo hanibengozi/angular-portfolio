@@ -3,7 +3,7 @@
 
 .about {
   position: relative;
-  height: 100vh;
+  height: 110vh;
   @include flex-container(row);
   background-color: $blue;
 
@@ -55,21 +55,40 @@
   }
 }
 
-@include mq(sm, max) {
+@include mq-between(xs, lg) {
   .about {
-    height: 115vh;
     &__img {
       position: absolute;
-      height: fit-content;
       flex-basis: 90%;
       bottom: 0;
+      right: 0;
+      left: 25px;
+      width: 90%;
+      height: fit-content;
     }
 
     &__details {
       position: absolute;
       flex-basis: 90%;
-      top: 10px;
+      top: 100px;
+      right: 0;
+      left: 0;
       @include flex-container(column);
     }
+  }
+}
+@include mq-between(md, lg) {
+  .about {
+    height: 165vh;
+  }
+}
+@include mq-between(sm, md) {
+  .about {
+    height: 130vh;
+  }
+}
+@include mq-between(xs, sm) {
+  .about {
+    height: 130vh;
   }
 }

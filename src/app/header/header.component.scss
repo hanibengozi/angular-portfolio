@@ -73,7 +73,7 @@ header {
   }
 }
 
-@include mq(md,max) {
+@include mq(lg,max) {
   .toggle {
     display: block;
   }
