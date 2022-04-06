@@ -89,6 +89,6 @@
 }
 @include mq-between(xs, sm) {
   .about {
-    height: 130vh;
+    height: 100vh;
   }
 }
