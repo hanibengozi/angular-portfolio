@@ -9,7 +9,7 @@ export class AboutComponent implements OnInit {
 
   constructor() { }
   title: string = "Hello, I am Hana ";
-  paragraph: string = "I am a Fullstack Developer";
+  paragraph: string = "I am a Software Developer";
 
   ngOnInit() {}
 
